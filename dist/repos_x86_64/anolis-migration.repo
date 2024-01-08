@@ -1,0 +1,25 @@
+# Anolis OS migration repo
+
+[migration]
+name=Anolis OS - migration repo
+baseurl=https://mirrors.openanolis.cn/anolis/migration/$basearch/os/
+gpgcheck=1
+gpgkey=https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
+failovermethod=priority
+enabled=1
+
+[migration-debug]
+name=Anolis OS - migration debug repo
+baseurl=https://mirrors.openanolis.cn/anolis/migration/$basearch/debug/
+gpgcheck=1
+gpgkey=https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
+failovermethod=priority
+enabled=0
+
+[migration-source]
+name=Anolis OS - migration source repo
+baseurl=https://mirrors.openanolis.cn/anolis/migration/source/
+gpgcheck=1
+gpgkey=https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
+failovermethod=priority
+enabled=0

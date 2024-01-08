@@ -1,0 +1,91 @@
+[anolis_baseos]
+name=anolis baseos
+baseurl=https://mirrors.openanolis.cn/anolis/8/BaseOS/$basearch/os
+gpgcheck=0
+
+[anolis_appstream]
+name=anolis appstream
+baseurl=https://mirrors.openanolis.cn/anolis/8/AppStream/$basearch/os
+gpgcheck=0
+
+[anolis_powertools]
+name=anolis powertools
+baseurl=https://mirrors.openanolis.cn/anolis/8/PowerTools/$basearch/os
+gpgcheck=0
+
+[anolis_highavailability]
+name=anolis highavailability
+baseurl=https://mirrors.openanolis.cn/anolis/8/HighAvailability/$basearch/os
+gpgcheck=0
+
+[anolis_plus]
+name=anolis plus
+baseurl=https://mirrors.openanolis.cn/anolis/8/Plus/$basearch/os
+gpgcheck=0
+enabled=1
+
+[anolis_extras]
+name=anolis extras
+baseurl=https://mirrors.openanolis.cn/anolis/8/Extras/$basearch/os
+enabled=1
+gpgcheck=0
+
+[anolis_baseos-debug]
+name=anolis baseos debug
+baseurl=https://mirrors.openanolis.cn/anolis/8/BaseOS/$basearch/debug
+gpgcheck=0
+enabled=0
+
+[anolis_appstream-debug]
+name=anolis appstream debug
+baseurl=https://mirrors.openanolis.cn/anolis/8/AppStream/$basearch/debug
+gpgcheck=0
+enabled=0
+
+[anolis_powertools-debug]
+name=anolis powertools debug
+baseurl=https://mirrors.openanolis.cn/anolis/8/PowerTools/$basearch/debug
+gpgcheck=0
+enabled=0
+
+[anolis_highavailability-debug]
+name=anolis highavailability debug
+baseurl=https://mirrors.openanolis.cn/anolis/8/HighAvailability/$basearch/debug
+gpgcheck=0
+enabled=0
+
+[anolis_plus-debug]
+name=anolis plus debug
+baseurl=https://mirrors.openanolis.cn/anolis/8/Plus/$basearch/debug
+gpgcheck=0
+enabled=0
+
+[anolis_extras-debug]
+name=anolis extras debug
+baseurl=https://mirrors.openanolis.cn/anolis/8/Extras/$basearch/debug
+enabled=0
+gpgcheck=0
+
+[nodesource-migrate]
+name=Node.js Packages for Enterprise Linux 8 - $basearch
+baseurl=https://rpm.nodesource.com/pub_18.x/el/8/$basearch
+module_hotfixes=true
+failovermethod=priority
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/NODESOURCE-GPG-SIGNING-KEY-EL
+
+[zabbix-migrate]
+name=Zabbix Official Repository - $basearch
+baseurl=http://repo.zabbix.com/zabbix/5.0/rhel/8/$basearch/
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ZABBIX-A14FE591
+
+[docker-ce-stable-migrate]
+name=Docker CE Stable - $basearch
+baseurl=https://mirrors.aliyun.com/docker-ce/linux/centos/8/$basearch/stable
+enabled=0
+gpgcheck=0
+gpgkey=https://mirrors.aliyun.com/docker-ce/linux/centos/gpg
+
