@@ -63,7 +63,7 @@ if [ $ret == "1" ]; then
 	exit 1
 fi
 
-version=0.13.0
+version=0.13.3
 rm -rf leapp-repository-$version
 tar xf leapp-repository-${version}.tar.gz
 cd leapp-repository-$version

@@ -19,7 +19,7 @@ if [ $? -ne 0 ]; then
 	yum -y reinstall python-requests
 fi
 
-version=0.12.0
+version=0.12.1
 tar xf leapp-${version}.tar.gz
 cd leapp-${version}
 for p in $(ls ../leapp*.patch)
