@@ -1,0 +1,53 @@
+[remove_pam_pkcs11_module_check]
+confirm = True
+
+[remove_pam_krb5_module_check]
+confirm = True
+
+[update_grub2-tools]
+confirm = True
+
+[keep_only_one_kernel-debug]
+confirm = True
+
+[keep_only_one_kernel-devel]
+confirm = True
+
+[remove_extra_kernel]
+confirm = True
+
+[comment_pam_tally2_out]
+confirm = True
+
+[update_python-devel]
+confirm = True
+
+[install_efibootmgr]
+confirm = True
+
+[change_root_symlinks]
+confirm = True
+
+[remove_btrfs_module]
+confirm = True
+
+[cancle_nfs_mount_in_fstab]
+confirm = True
+
+[cancle_ossfs_mount_in_fstab]
+confirm = True
+
+[change_fstab_xfs_options]
+confirm = True
+
+[remove_lvm2-cluster]
+confirm = False
+
+[remove_tcp_wrappers_configuration]
+confirm = True
+
+[remove_openssh_cipher]
+confirm = True
+
+[remove_openssh_mac]
+confirm = True
